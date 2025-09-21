@@ -27,7 +27,25 @@ important: <Badge text="重要功能" type="important"/> <span>&nbsp;&nbsp;&nbsp
 
 [**务必查看变更详情----------------->**](./history.md)
 
-## 2025.1.4 <Badge text="免费试用" type="tip"/> <Badge text="最新版" type="pink"/> <Badge text="2025-05-20" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+## 2025.1.7 <Badge text="免费试用" type="tip"/> <Badge text="最新版" type="pink"/> <Badge text="2025-09-08" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+- <Badge text="支持本地模式开关" type="tip"/>
+- <Badge text="域名生成支持读取变量" type="tip"/>  
+- <Badge text="列表字段支持快速查找定位" type="tip"/>
+- <Badge text="字段支持启用快捷过略" type="tip"/>
+- <Badge text="支持快捷键快速修改" type="tip"/>
+
+## 2025.1.6 <Badge text="免费试用" type="tip"/> <Badge text="2025-07-30" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+- <Badge text="搜索 URL 支持片段截断" type="danger"/>
+- <Badge text="Kotlin Solon 框架支持" type="tip"/>
+
+## 2025.1.5.1 <Badge text="免费试用" type="tip"/> <Badge text="2025-07-07" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+- <Badge text="Windows 系统 Function 编译错误" type="danger"/>
+
+## 2025.1.5 <Badge text="免费试用" type="tip"/> <Badge text="2025-06-24" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+- <Badge text="格式化性能优化" type="info"/>
+- <Badge text="Function 编译编码问题" type="danger"/>
+
+## 2025.1.4 <Badge text="免费试用" type="tip"/> <Badge text="2025-05-20" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
 - <Badge text="Script 支持调用本地项目 Class 的方法" type="tip"/>
 - <Badge text="修复动态 Function 编译问题" type="danger"/>
 

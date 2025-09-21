@@ -17,12 +17,79 @@ Join and follow us to solve your question ❤️❤️❤️↓↓↓
 :::
 
 > **Because developing version is still in development, the documentation of developing version may not be entirely accurate and is subject to change.** > <br/><br/>
-> important: <Badge text="Important function" type="important"/> feat: <Badge text="New function" type="tip"/>
+> important: <Badge text="Important feature" type="important"/> feat: <Badge text="New feature" type="tip"/>
 >
-> perf: <Badge text="Optimization function" type="info"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> fix: <Badge text="Fix or Remove function" type="danger"/>
+> perf: <Badge text="Optimization feature" type="info"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> fix: <Badge text="Fix or Remove feature" type="danger"/>
+
+## 2025.1.7 <Badge text="Free trial" type="tip"/> <Badge text="Newest version" type="pink"/> <Badge text="2025-09-08" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+- <Badge text="Local mode support" type="tip"/>
+- <Badge text="Domain generation support pom variable scan" type="tip"/>
+- <Badge text="Field speed search" type="tip"/>
+- <Badge text="Field enabled search" type="tip"/>
+- <Badge text="Quick modify shortcuts support" type="tip"/>
+
+::: hint Local mode support <Badge vertical="top" text="New feature" type="tip"/>
+
+![](/img/2025.1.7/globalLocalMode_en.png)
+
+In global local mode, `.fastRequest` directory is ignored and made invisible, which is consistent with Solution 1 in [How to ignore .fastRequest directory](./faq.md#s-how-to-ignore-fastrequest-directory).
+It is suitable for non-git projects.
 
 
-## 2025.1.4 <Badge text="Free trial" type="tip"/> <Badge text="Newest version" type="pink"/> <Badge text="2025-05-20" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+![](/img/2025.1.7/localMode.png)
+It is suggested to use project-level local mode for git projects.
+
+:::
+
+::: hint Domain generation support pom variable scan <Badge vertical="top" text="New feature" type="tip"/>
+![](/img/2025.1.7/pomScanProp_en.png)
+
+When generating domain, it supports scanning variables in `pom.xml`, such as `${server.port}`.
+:::
+
+::: hint Field speed search <Badge vertical="top" text="New feature" type="tip"/>
+
+![](/img/2025.1.7/fieldSpeedSearch.png)
+
+Support quickly locate the field key in the list, after entering the keyword, you can quickly locate the corresponding field by pressing the arrow keys. This feature is supported in `Headers`, `Path Params`, `URL Params`, `Form URL-Encoded`, `Form-data` tabs.
+
+:::
+
+::: hint Field enabled search <Badge vertical="top" text="New feature" type="tip"/>
+![](/img/2025.1.7/enabledFieldList.png)
+
+This feature allows you to quickly locate the value of an enabled field when there are too many fields.
+:::
+
+::: hint Quick modify shortcuts support <Badge vertical="top" text="New feature" type="tip"/>
+![](/img/2025.1.7/shortcuts_en.png)
+
+Support quickly locate and modify shortcuts for the action.
+
+:::
+
+
+
+
+## 2025.1.6 <Badge text="Free trial" type="tip"/> <Badge text="Newest version" type="pink"/> <Badge text="2025-07-30" color="SandyBrown"/>  <Badge text="IDEA 2023.3+" color="pink"/>
+- <Badge text="Search URL truncate segment support" type="tip"/>
+- <Badge text="Solon framework linemarker and API scan support" type="tip"/>
+
+:::hint Search URL truncate segment support <Badge vertical="top" text="New feature" type="tip"/>
+
+![](/img/2025.1.6/searchUrlTruncate_en.png)
+
+If there is a URL prefix fragment such as context-path or gateway in the project, add a truncated fragment to the project global config, and the SearchEveryWhere search will automatically truncate the fragment and search for the corresponding results.
+:::
+
+## 2025.1.5.1 <Badge text="Free trial" type="tip"/> <Badge text="2025-07-07" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+- <Badge text="Function compilation error in Windows" type="danger"/>
+
+## 2025.1.5 <Badge text="Free trial" type="tip"/> <Badge text="2025-06-24" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+- <Badge text="Formatting performance optimization" type="tip"/>
+- <Badge text="Function compilation encoding error" type="danger"/>
+
+## 2025.1.4 <Badge text="Free trial" type="tip"/> <Badge text="2025-05-20" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
 - <Badge text="Script supports calling local project class method" type="tip"/>
 - <Badge text="Fixed dynamic Function compilation error" type="danger"/>
 
